@@ -49,29 +49,35 @@ public abstract class Animal {
 
     //пропишем геттеры и сеттеры чтобы классы наследники могли узнать какие переменные есть  в родительском классе
 
-   // public boolean isJump() {
-    //        return jump;
-    //    }
-    //
-    //    public int getWay() {
-    //        return way;
-    //    }
-    //
-    //    public int getDistance() {
-    //        return distance;
-    //    }
-    //
-    //    public void setJump(boolean jump) {
-    //        this.jump = jump;
-    //    }
-    //
-    //    public void setWay(int way) {
-    //        this.way = way;
-    //    }
-    //
-    //    public void setDistance(int distance) {
-    //        this.distance = distance;
-    //    }
+//    public boolean isJump() {
+//            return jump;
+//        }
+//
+//        public int getWay() {
+//            return way;
+//        }
+//
+//        public int getDistance() {
+//            return distance;
+//        }
+//
+//        public void setJump(boolean jump) {
+//            this.jump = jump;
+//        }
+//
+//        public void setWay(int way) {
+//            this.way = way;
+//        }
+//
+//        public void setDistance(int distance) {
+//            this.distance = distance;
+//        }
+
+
+    //прописывать геттеры сеттеры не нужно чтобы узнать переменнные родительского класса, можно через Alt+Insert  заимплементить конструктор-родитель Animal
+    //и он автоматически в конструкторе наследнике перечислит все переменные родителя
+
+
 
     //теперь создадим классы наследники и пропишем в них реализацию абстрактных методов
 
