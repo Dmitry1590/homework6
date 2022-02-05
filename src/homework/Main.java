@@ -30,13 +30,14 @@ public class Main {
 
        // создадим массив животных
 
-        Animal animals[] = new Animal[4];
+        Animal animals[] = new Animal[5];
         //переопределим элементы массива объектов
 
         animals[0]=new Cat("Kitty", "Кошачьи" ,200, 20, true);
         animals[1]=new Cat("Lizy", "Кошачьи", 0, 250, false);
         animals[2]=new Dog("Baddy", "Собачьи" ,0, 400, true);
         animals[3]=new Dog("Scooby", "Собачьи" ,200, 700, false);
+        animals[4]=new Cow("Zorka","Коровы", 25, 45, true);
 
         for (int i = 0; i < animals.length; i++) {
            animals[i].sweem();
@@ -47,6 +48,7 @@ public class Main {
         Animal.printCount();
         Cat.printCat();
         Dog.printDog();
+        Cow.countCow();
 
     }
 }
